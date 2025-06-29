@@ -12,7 +12,6 @@ body {
     padding: 20px;
 }
 
-/* Deixando o cabeçalho bonitão */
 header {
     background: #000000;
     color: white;
@@ -46,7 +45,7 @@ nav a.active {
 
 /* As seções de conteúdo */
 .content-section {
-    display: none; /* Escondemos todas por padrão */
+    display: none;
     background: white;
     padding: 25px;
     margin-top: 20px;
@@ -55,10 +54,9 @@ nav a.active {
 }
 
 .content-section.active {
-    display: block; /* A classe 'active' faz a mágica de mostrar a seção */
+    display: block; 
 }
 
-/* Deixando o formulário com uma cara legal */
 form {
     display: flex;
     flex-direction: column;
