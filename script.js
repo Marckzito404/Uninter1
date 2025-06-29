@@ -19,7 +19,6 @@ document.addEventListener('DOMContentLoaded', () => {
             // Isso previne que a página recarregue
             event.preventDefault(); 
             
-            // Pega o ID da página que a gente quer mostrar (ex: 'sobre', 'contato')
             const targetPage = link.getAttribute('data-page');
 
             // Chama nossa função pra fazer a troca
